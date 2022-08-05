@@ -1,5 +1,18 @@
+<script>
+import Testimonials from './main/Testimonials.vue';
+import TrendingProducts from './main/TrendingProducts.vue';
+
+  export default {
+    components: {
+    Testimonials,
+    TrendingProducts
+}
+  }
+</script>
+
 <template>
   <div>
-    Main content
+    <TrendingProducts />
+    <Testimonials />
   </div>
 </template>
