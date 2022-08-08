@@ -1,8 +1,12 @@
 <script>
+import { datadogRum } from '@datadog/browser-rum';
+
 export default {
+    setup() {},
     methods: {
         handleSaleBannerClick() {
             console.log('sale banner click')
+            datadogRum.addAction('saleBannerClick');
         }
     }
 }
