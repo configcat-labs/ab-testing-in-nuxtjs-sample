@@ -1,12 +1,16 @@
 <script>
-import { datadogRum } from '@datadog/browser-rum';
+// Import amplitude configuration
+import { ampli } from '../../../src/ampli';
 
 export default {
-    setup() {},
+    mounted() {
+        // Initialize amplitude with the production environment as stated on the integration page.
+        ampli.load({ environment: 'production' });
+    },
     methods: {
         handleSaleBannerClick() {
-            console.log('sale banner click')
-            datadogRum.addAction('saleBannerClick');
+            // Log the event to amplitude when the banner is clicked
+            ampli.storeVisitClick();
         }
     }
 }
