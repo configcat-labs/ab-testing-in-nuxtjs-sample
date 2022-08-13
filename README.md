@@ -1,18 +1,39 @@
 # A/B testing in Nuxt.js sample
 
+A companion repo for "How to perform an A/B test in Nuxt.js"
+
+## About
+
+This is a fictional e-commerce website developed with Nuxt.js.
+
+Here is a screenshot:
+
+...
+
+## How it works
+
+Clicking on the sale banner logs an event to Amplitude. The events are then recorded in 
+an analysis chart for comparison to previous metrics.
+
 ## How to run the app
 
-```bash
-# install dependencies
-$ npm install
+1. Clone this repository
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+2. Open a terminal in the root of the cloned repo and install the required npm packages:
 
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
+```sh
+npm install
 ```
+3. Start the app by running:
+
+```sh
+npm run dev
+```
+
+## References
+
+**ConfigCat** also supports many other frameworks and languages. Check out the full list of supported SDKs [here](https://configcat.com/docs/sdk-reference/overview/).
+
+You can also explore other code samples for various languages, frameworks, and topics here in the [ConfigCat labs](https://github.com/configcat-labs) on GitHub.
+
+Keep up with ConfigCat on [Twitter](https://twitter.com/configcat), [Facebook](https://www.facebook.com/configcat), [LinkedIn](https://www.linkedin.com/company/configcat/), and [GitHub](https://github.com/configcat).
