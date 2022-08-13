@@ -8,7 +8,7 @@ This is a fictional e-commerce website developed with Nuxt.js.
 
 Here is a screenshot:
 
-...
+![Snapshot of sample app](https://user-images.githubusercontent.com/74829200/184504007-6c2cfd9f-9d26-4133-9b59-1f47c92bffc7.png)
 
 ## How it works
 
