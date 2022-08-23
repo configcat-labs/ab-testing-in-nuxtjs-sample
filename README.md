@@ -15,7 +15,7 @@ The red sale banner can be identified as the new variation/feature to be tested.
 ## How it works
 
 Clicking on the sale banner logs an event to Amplitude. The events are then recorded in 
-an analysis chart for later comparison to the previous benchmark metrics collected by the control state (a version of the site without the banner) of the site.
+an analysis chart for later comparison to the previous benchmark metrics collected for the control state (a version of the site without the banner) of the site.
 
 ## Build and Run
 
